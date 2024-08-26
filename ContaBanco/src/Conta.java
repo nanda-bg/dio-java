@@ -50,7 +50,7 @@ public class Conta {
         if (valor > 0 && valor <= saldo) {
             saldo -= valor;
         } else{
-            System.out.printf("Saldo indisponível, tente um valor até %.2f", saldo);
+            System.out.printf("Saldo insuficiente, tente um valor até %.2f", saldo);
         }
     }
 
